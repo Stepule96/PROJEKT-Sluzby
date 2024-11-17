@@ -1,7 +1,7 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-/*Začátek css*/
+/* Verze pro mobil */
 
 body{
     margin: 0;
@@ -36,8 +36,9 @@ h1{
     padding-bottom: 60px;
 }
 
-.odstavec1{
-    margin-bottom: 28px;
+.odstavec1,
+.odstavec2{
+    margin-bottom: 30px;
 
 }
 
@@ -45,6 +46,10 @@ h1{
 .odstavec2 p{
     font-size: 16px;
     text-align: center;
+}
+
+p{
+    margin: 0;
 }
 
 .uvod{
@@ -109,3 +114,5 @@ h2{
     padding-top: 30px;
     margin: 0;
 }
+
+/* Verze pro tablet */  
