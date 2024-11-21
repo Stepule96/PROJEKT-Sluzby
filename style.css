@@ -16,19 +16,27 @@ body{
     margin-top: 60px;
     margin-left: 75px;
     margin-right: 75px;
-    margin-bottom: 40px;
+
 }
 
+
 h1{
+    color: #000000;
+    font-size: 28px;
+    font-weight: 500;
     margin: 0;
     text-align: center;
-    color: #000000;
-    font-weight: 500;
-    font-size: 28px;
+ 
+}
+
+.nadpis{
     padding-bottom: 10px;
     border-bottom: 2px solid #407BFF;
-    margin-bottom: 30px;
+    width: 200px;
+    margin: 30px auto;
+
 }
+
 
 .obsah{
     padding-left: 20px;
@@ -60,31 +68,26 @@ p{
 }
 
 .tlacitka a{
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    color: #FFFFFF;
-    padding: 10px 30px;
-    border-radius: 20px;
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 10px;
+   display: block;
+   text-decoration: none;
+   text-align: center;
+   color: #FFFFFF;
+   font-size: 14px;
+   font-weight: 400;
+   padding: 10px 30px;
+   border-radius: 20px;
 }
 
 .dobrodruzstvi{
     background-color:#407BFF;
-    width: 195px;
-    margin-left: 130px;
-    margin-right: 130px;
+    margin: 0 130px 10px 130px;
 }
 
 .plaz{
     background-color: #8B8B8B;
-    width: 225px;
-    margin-left: 120px;
-    margin-right: 120px;
-    
+    margin: 0 110px 0 110px;
 }
+
 
 h2{
     color: #000000;
@@ -96,23 +99,12 @@ h2{
 }
 
 .box{
-    width: 460px;
     font-size: 13px;
     font-weight: 300;
-    overflow: auto;
     border-radius: 10px;
     box-shadow: 0 4px 6px #407BFF1F;
-
+    display: flex;
 }
 
-.icone{
-    float: left;
-    padding: 20px 30px 20px 20px;
-}
-
-.box p{
-    padding-top: 30px;
-    margin: 0;
-}
 
 /* Verze pro tablet */  
