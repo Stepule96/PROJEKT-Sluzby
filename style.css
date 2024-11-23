@@ -1,91 +1,40 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-/* Verze pro mobil */
 
 body{
     margin: 0;
-    background-color:#FAFAFA;
-    font-family: Montserrat;
-    color: #8B8B8B;
-
-}
-
-.foto{
-    width: 350px;
-    margin-top: 60px;
-    margin-left: 75px;
-    margin-right: 75px;
-
-}
-
-
-h1{
-    color: #000000;
-    font-size: 28px;
-    font-weight: 500;
-    margin: 0;
-    text-align: center;
- 
-}
-
-.nadpis{
-    padding-bottom: 10px;
-    border-bottom: 2px solid #407BFF;
-    width: 200px;
-    margin: 30px auto;
-
-}
-
-
-.obsah{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 60px;
-}
-
-.odstavec1,
-.odstavec2{
-    margin-bottom: 30px;
-
-}
-
-.odstavec1 p,
-.odstavec2 p{
-    font-size: 16px;
-    text-align: center;
 }
 
 p{
     margin: 0;
 }
 
-.uvod{
-    margin-bottom: 30px;
+.stranka{
+    background-color:#FAFAFA;
+    font-family: Montserrat;
+    color: #8B8B8B;
+    padding: 60px 20px 60px 20px;
+}
+
+h1,
+h2{
+    color: #000000;
+    margin: 0;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 500;
     text-align: center;
-    font-size: 16px;
 
 }
 
-.tlacitka a{
-   display: block;
-   text-decoration: none;
-   text-align: center;
-   color: #FFFFFF;
-   font-size: 14px;
-   font-weight: 400;
-   padding: 10px 30px;
-   border-radius: 20px;
-}
-
-.dobrodruzstvi{
-    background-color:#407BFF;
-    margin: 0 130px 10px 130px;
-}
-
-.plaz{
-    background-color: #8B8B8B;
-    margin: 0 110px 0 110px;
+.nadpis{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #407BFF;
+    width: 200px;
+    margin: 0 auto 30px ;
 }
 
 
@@ -94,8 +43,59 @@ h2{
     font-size: 16px;
     font-weight: 500;
     text-align: center;
-    margin-top: 60px;
     margin-bottom: 15px;
+
+}
+
+.foto{
+    width: 350px;
+
+}
+
+.obrazek{
+    margin-bottom: 40px;
+}
+
+
+.tlacitka a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 30px;
+    border-radius: 20px;
+ }
+ 
+ 
+ .dobrodruzstvi{
+     background-color:#407BFF;
+     margin: 0 130px 10px 130px;
+ }
+ 
+ .plaz{
+     background-color: #8B8B8B;
+     margin: 0 110px 0 110px;
+ }
+
+ .odstavec1{
+    text-align: center;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+ }
+
+ .kontejner2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+ }
+
+
+.kontejner1 p,
+.kontejner2 p,
+.kontejner3 p{
+    text-align: center;
 }
 
 .box{
@@ -104,7 +104,5 @@ h2{
     border-radius: 10px;
     box-shadow: 0 4px 6px #407BFF1F;
     display: flex;
+
 }
-
-
-/* Verze pro tablet */  
