@@ -49,14 +49,15 @@ h2{
 
 .foto{
     width: 350px;
-    position: relative;
-    left: 55px;
+
 }
 
 
 .obrazek{
     margin-bottom: 40px;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -160,7 +161,7 @@ h2{
 
     .foto{
         width: 400px;
-        left: 100px;
+
     }
 
     .cestovka,
